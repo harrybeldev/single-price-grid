@@ -1,0 +1,98 @@
+body{
+  background-color: hsl(204, 43%, 93%);
+}
+p{
+  font-family: karla,Arial;
+}
+.price-grid{
+  display: grid;
+  grid-template-columns: 500px;
+  margin-left: 400px;
+  
+}
+.top-div{
+  width: 470px;
+  background-color: white;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.bottom-div{
+  display: flex;
+  justify-items: space-between;
+  
+  
+}
+.right-div{
+  display: inline-block;
+  color: white;
+  width: 250px;
+  background-color: hsl(179, 62%, 43%);
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-top: 15px;
+  border-bottom-left-radius: 10px;
+}
+.left-div{
+  display: inline-block;
+  color: white;
+  width: 250px;
+  background-color: hsl(179, 62%, 43%);
+  opacity: 0.6;
+  padding-bottom: 20px;
+  padding-top: 15px;
+  padding-left: 40px;
+  border-bottom-right-radius: 10px;
+}
+.text1{
+  font-weight: 700;
+  font-size: 21px;
+  color: hsl(179, 62%, 43%);
+}
+.text2{
+  color: hsl(71, 73%, 54%);
+}
+.text3{
+  font-size: 13px;
+  width: 430px;
+  line-height: 20px;
+}
+.text4{
+  font-weight: 700;
+}
+.text5{
+  font-size: 13px;
+  
+ 
+}
+.text-5{
+  font-weight: 700;
+  font-size: 30px;
+}
+.text6{
+  font-size: 13px;
+}
+.signup-button{
+  font-family: karla;
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+  border: none;
+  padding: 10px 75px 10px 75px;
+  border-radius: 4px;
+  box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.15);
+  margin-top: 13px;
+}
+.text7{
+  font-weight: 700;
+  font-size: 15px;
+}
+.text7{
+  font-family: karla,Arial;
+}
+.left-div p{
+margin-top: 0;
+margin-bottom: 5px;
+font-size: 12px;
+}
